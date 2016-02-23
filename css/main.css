@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+/*    background-color: #fe7;*/
+    background-color: #eee;
+}
+
+header {
+    background-color: #900;
+}
+
+footer {
+    background-color: #3bd;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+    border-radius: 5px;
+    overflow: hidden;
+}
