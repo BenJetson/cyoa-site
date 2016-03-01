@@ -88,4 +88,5 @@ p {
     text-transform: uppercase;
     font-family: Roboto;
     width: 50%;
+    overflow: hidden;
 }
