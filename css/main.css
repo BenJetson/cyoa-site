@@ -73,6 +73,11 @@ p {
     font-size: 18px;
     text-indent: 25px;
     text-align: justify;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
 }
 
 .choices a {
@@ -89,4 +94,18 @@ p {
     font-family: Roboto;
     width: 50%;
     overflow: hidden;
+}
+
+img.polaroid {
+    display: block;
+    border: 12px solid #ffffef;
+    border-bottom: 45px solid #ffffef;
+    border-radius: 4px;
+    box-shadow: 8px 8px 15px #999;
+    margin: auto;
+}
+
+.errorpage p {
+    text-align: center;
+    text-indent: 0;
 }
