@@ -3,7 +3,7 @@
 <html>
     
     <head>
-        <title>Killing Roosevelt: Section 1B</title>
+        <title>Killing Roosevelt: Warp</title>
         <link rel="icon" href="img/favicon.png">
         
         <link rel="stylesheet" href="css/grid_6.css">
@@ -56,14 +56,14 @@
                 
                 <div class="full">
                     
-                    <p>You are transported into the breakwater hotel. This is where FDR is staying, he is currently reading the New York Times. The title of the New York Times officially states "Theodore Roosevelt's Third Term?" He is there sitting in a chair with his legs crossed and his face with a grin on it. He looks at his inspirational figure with faith because he knows that he is going to be like his cousin one day. Once you enter the breakwater hotel you see the him, and you think whether to get his attention or not. So do you talk to him or not? </p>
+                    <h2>Warp to a page...</h2>
                     
-                    <div class="choices">
-                        
-                        <a href="story1bb.html">Talk to him</a>
-                        <a href="story1ba.html">Don't talk him</a>
-                        
-                    </div>
+                    <span class="errorpage"><p>Enter the warp ID you found on the page to jump right to it!</p></span>
+                    
+                    <form method="post" onsubmit="warp(); return false;" id="warpform">
+                        <input type="text" id="warpinput"><br>
+                        <input type='submit' value="Go!">
+                    </form>
                     
                 </div>
                 
@@ -78,7 +78,7 @@
                     
                     <div class="full">
                         <p>Website designed by Ben Godfrey.</p>
-                        <p>This portion of the story is written by Sharan Ravishankar.</p>
+                        <p>This portion of the story is written by NAME HERE.</p>
                         <p>Story &copy;2016 Ben Godfrey, Sharan Ravishankar, Jacob House, and Jackson Morrissey.<br>All rights reserved. Content may not be reproduced without permission.</p>
                     </div>
                         
@@ -86,6 +86,9 @@
                 
             </div>
         </footer>
+        
+        <script src="js/jquery-1.12.1.min.js"></script>
+        <script src="js/warps.js"></script>
         
     </body>
     

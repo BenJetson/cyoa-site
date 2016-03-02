@@ -7,6 +7,10 @@ body {
     background-color: #eee;
 }
 
+.container {
+    max-width: 900px;
+}
+
 .row > * {
     border: 0;
 }
@@ -122,4 +126,55 @@ img.polaroid {
     font-weight: bolder;
     text-shadow: 0 0 30px #f00;
     
+}
+
+#warpform input[type=text] {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #007;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    width: 75%;
+    font-size: 90px;
+    text-align: center;
+    font-family: "Arvo";
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+#warpform input[type=submit] {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #007;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #444;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto;
+    width: 50%;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-size: 40px;
+}
+
+#startWarning {
+    background-color: #ff5;
+    padding: 10px;
+    border: 1px solid #cc2;
+}
+
+#startWarning p {
+    text-align: center;
+    line-height: 1;
+    text-indent: none;
+}
+
+#startwarning h2 {
+    font-size: 12px;
 }
