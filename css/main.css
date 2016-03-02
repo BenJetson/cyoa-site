@@ -108,4 +108,18 @@ img.polaroid {
 .errorpage p {
     text-align: center;
     text-indent: 0;
+    text-shadow: none;
+}
+
+.errorpage h1 {
+    font-size: 120px;
+    font-weight: bolder;
+    margin: 75px;
+    text-shadow: 0 0 60px #f00;
+}
+
+.errorpage h2 {
+    font-weight: bolder;
+    text-shadow: 0 0 30px #f00;
+    
 }
