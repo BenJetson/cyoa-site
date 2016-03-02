@@ -27,9 +27,7 @@ function warp() {
         $("#warpinput").css("color", "#f00");
         $("#warpinput").css("background-color", "#fdd");
         alert("Invalid!")
-        throw "The input '" + warpid + "' was not a valid warp ID."
-        return false;
-        
+        location.reload();
     }
     
 }
