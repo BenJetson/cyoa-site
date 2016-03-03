@@ -39,14 +39,17 @@ img {
 /*    padding: 15px;*/
     color: #fff;
     text-decoration: none;
+    display: block;
 }
 
 #logo-red {
     color: #f00;
+    
 }
 
 .navbar {
     background-color: #973;
+    position: static;
 }
 
 .navbar a,
@@ -71,6 +74,7 @@ footer p {
 h1, h2, h3, h4, h5, h6 {
     font-family: Arvo;
     text-align: center;
+    margin: 5px auto;
 }
 
 p {
@@ -78,6 +82,7 @@ p {
     text-indent: 25px;
     text-align: justify;
     line-height: 1.7;
+    margin: 0;
 }
 
 img {
@@ -96,7 +101,7 @@ img {
     text-align: center;
     text-transform: uppercase;
     font-family: Roboto;
-    width: 50%;
+    width: 60%;
     overflow: hidden;
 }
 
@@ -167,14 +172,52 @@ img.polaroid {
     background-color: #ff5;
     padding: 10px;
     border: 1px solid #cc2;
+    margin: 10px;
 }
 
 #startWarning p {
     text-align: center;
     line-height: 1;
-    text-indent: none;
+    text-indent: 0;
 }
 
 #startwarning h2 {
     font-size: 12px;
+    margin: 0;
+}
+
+div.warpDisplay {
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    background-color: #ff5;
+    border: 2px solid #cc2;
+    border-radius: 2px;
+    line-height: 1;
+}
+
+.warpDisplay p {
+    text-indent: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arvo;
+    line-height: 1;
+    margin: 0 0 10px 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.warpDisplay h2 {
+    font-size: 16px;
+}
+
+#warplink {
+    color: #000;
+    text-decoration: none;
+}
+
+@media (max-width: 670px) {
+    .warpDisplay {
+        position: static;
+    }
 }
