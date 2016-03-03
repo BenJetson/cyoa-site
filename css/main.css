@@ -39,14 +39,17 @@ img {
 /*    padding: 15px;*/
     color: #fff;
     text-decoration: none;
+    display: block;
 }
 
 #logo-red {
     color: #f00;
+    
 }
 
 .navbar {
     background-color: #973;
+    position: static;
 }
 
 .navbar a,
