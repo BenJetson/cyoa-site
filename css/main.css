@@ -180,4 +180,41 @@ img.polaroid {
 
 #startwarning h2 {
     font-size: 12px;
+    margin: 0;
+}
+
+div.warpDisplay {
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    background-color: #ff5;
+    border: 2px solid #cc2;
+    border-radius: 2px;
+    line-height: 1;
+}
+
+.warpDisplay p {
+    text-indent: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arvo;
+    line-height: 1;
+    margin: 0 0 10px 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.warpDisplay h2 {
+    font-size: 16px;
+}
+
+#warplink {
+    color: #000;
+    text-decoration: none;
+}
+
+@media (max-width: 670px) {
+    .warpDisplay {
+        position: static;
+    }
 }
